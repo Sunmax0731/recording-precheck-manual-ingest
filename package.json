@@ -1,0 +1,31 @@
+{
+  "name": "recording-precheck-manual-ingest",
+  "version": "0.1.0-alpha.1",
+  "private": false,
+  "description": "録画前チェック・手順書・録画素材取り込み closed alpha package",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node scripts/check-mojibake.js && node test/representative-suite.test.js && node scripts/build-docs-zip.js && node scripts/qcds-check.js",
+    "build:docs": "node scripts/build-docs-zip.js",
+    "alpha:run": "node src/cli/index.js samples/representative-suite.json"
+  },
+  "files": [
+    "src",
+    "samples",
+    "docs",
+    "README.md",
+    "AGENTS.md",
+    "SKILL.md"
+  ],
+  "keywords": [
+    "WindowsApp",
+    "qcds",
+    "closed-alpha",
+    "windows-app"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sunmax0731/recording-precheck-manual-ingest.git"
+  }
+}
