@@ -1,0 +1,11 @@
+{
+  "product": "recording-precheck-manual-ingest",
+  "title": "録画前チェック・手順書・録画素材取り込み",
+  "domain": "WindowsApp",
+  "ideaNo": 5,
+  "platformType": "windows-local-app",
+  "expectedPublicTarget": "GitHub Release / BOOTH",
+  "browser": null,
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
